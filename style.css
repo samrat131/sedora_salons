@@ -1,0 +1,161 @@
+/*
+Theme Name: sedora
+Theme URI: http://cybernetikz.com/
+Author: cn
+Author URI: http://cybernetikz.com/
+Description: Sedora salons theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sedora
+Tags: sedora-salons,sedora,salons
+*/
+
+.wrap-review p strong{ font-weight:bold;}
+.page-block{ width:1175px; margin:0 auto;}
+
+.gallery-left,.gallery-right{ cursor:pointer;}
+
+.pro-slide-middle{ padding:0; width:96%}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+	margin:0;
+}
+
+.jcarousel2 {
+    position: relative;
+    overflow: hidden;
+	float:left;
+	width:94%;
+}
+.jcarousel2 ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel2 li {
+    float: left;
+	width: 195px;
+	padding:0px 7px;
+	margin:0px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.jcarousel2 img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+}
+
+.gallery-placeholder{background:url(images/spinner.gif) no-repeat center center;}
+
+.item-part h3 a{ color:#4d4d4d;}
+
+.map {
+	position: relative;
+	padding-bottom: 58%;
+	height: 0;
+	overflow: hidden;
+}
+.map iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+#header-full{ background:#c9cbcc}
+.money-saving h3{ text-transform:none;}
+/* sticky header */
+.sticky{ 
+padding:5px 0 !important; position:fixed !important; z-index:9999 !important; display:none;
+-webkit-box-shadow: 0px 3px 15px 0px rgba(50, 50, 50, 0.51);
+-moz-box-shadow:    0px 3px 15px 0px rgba(50, 50, 50, 0.51);
+box-shadow:         0px 3px 15px 0px rgba(50, 50, 50, 0.51);
+}
+.sticky .logo{ width:150px;}
+.sticky .tel{margin-top:-5px;}
+.sticky #navigation{ width:85%; padding-top:13px;}
+.sticky nav ul li:last-child{padding-right:20px;}
+
+/* gallery nav */
+.gal-nav{ position:absolute; z-index:9; cursor:pointer; width:5%; top:40%;}
+.gal-nav.left{left:2%;}
+.gal-nav.right{right:1%;}
+
+/* home slider font */
+.slide-mid h2 strong{ font-family:"dosisbold";}
+
+ul.coupon li a{ color:#070707; /*border-bottom:#c9cbcc 1px dotted;*/ }
+
+.dir-pro-chart table{ margin-top:0}
+.ss-tab{ width:100%; height:299px; overflow-y: auto; overflow-x: hidden;  margin-top:20px; float:left; }
+.dir-pro-chart tr:nth-child(2n+1){ background-color:#ebebeb;}
+
+/* content text */
+
+.post-content ul, .post-content ol{ margin:0;}
+.post-content ul li{ font-family:'latoregular', Arial, Helvetica, sans-serif; font-size:20px; font-weight:normal; color:#070707; line-height:24px; min-height:32px; background:url(images/bullet3.png) left no-repeat;
+				background-position:0 .0em; margin-top:10px; padding-left:40px; margin-left:5%; }
+				
+.post-content ol li{ background:none; list-style-type:decimal}
+.post-content left{ float:left;}
+.post-content right{ float:right;}
+.post-content .column6{ width:48%; padding:0 1%; float:left;}
+.post-content p{ margin:15px 0;}
+.post-content strong{ font-weight:bold;}
+.post-content .paragraph-row{ display:table;}
+
+.footer-menu ul{ margin:20px 0 0 0;}
+.footer-menu ul li{ display:inline-block; padding:0 1.4% 0 1%; font-family: "latoregular",Arial,Helvetica,sans-serif; font-size: 17px; line-height:18px; font-weight: normal; border-right:#6e6e6e 2px solid;}
+.footer-menu ul li:last-child{border:none}
+.footer-menu ul li a{color: #3b3b3b;}
+.gift-mid h2 a{ color:#FFF; text-decoration:underline;}
+.giftcert-field a{ color:#070707; text-decoration:underline;}
+.purchase-btn a{ text-decoration:none;}
+
+.entry-header h2{ text-align:left;}
+.entry-meta{ margin:20px 0;}
+.entry-footer span{ margin:0 10px 0 0;}
+.entry-footer a,.entry-content a,.entry-meta a{ color:#414141; border-bottom:1px #CCCCCC dotted;}
+.entry-meta time.updated{ display:none;}
+.entry-content p{ margin:0 0 20px 0;}
+
+.archive h2 a{ color:#414141; border-bottom:1px #CCCCCC dotted;}
+h1.page-title{font-family: "dosisregular"; font-size:40px; text-transform:uppercase; color:#414141; text-align:center;}
+
+@media screen and (max-width: 1050px) {
+	.desktop{ display:none !important;}
+}
+@media screen and (max-width: 768px) {
+	.pro-slide-block{ width:96%; padding:0 2%;}
+}
+@media screen and (max-width: 650px) {
+	.jcarousel2{ width:92%;}
+}
+@media screen and (max-width: 540px) {
+	.jcarousel2 li{ width:96px;}
+	.footer-menu ul li{ display:list-item; line-height:normal; border:none;}
+}
+@media screen and (max-width: 360px) {
+	.gallery-left,.gallery-right{ margin-top:5%;}
+}

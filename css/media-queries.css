@@ -1,0 +1,535 @@
+
+/************************************************************************************
+smaller than 1600
+*************************************************************************************/
+@media screen and (max-width: 1350px) {
+
+.wrap{
+	  width:98%;
+	}
+/*========= own salon ==========
+=================================*/
+
+.left-arrow-sub {left:10%; }
+.right-arrow-sub { right:10%;}
+.ownsalon-mid { width:60%; position:absolute; margin:0 15%; z-index:1;   }
+.ownsalon-mid h2 { margin-top:9%;  }
+.wrap-subcontent {width:98%; }
+
+
+}
+
+/************************************************************************************
+smaller than 1200
+*************************************************************************************/
+@media screen and (max-width: 1240px) {
+
+.wrap-head{
+	  width:98%;
+	}
+nav ul li { font-size:17px; padding-left:13px; padding-right:13px; }
+
+.slide-mid h2 { font-family: 'dosisregular'; font-size:40px; color:#FFFFFF; line-height:45px; text-align:center; margin-top:12%;  }
+.wrap-content {
+				width:98%;
+				margin:auto;
+				position:relative;
+}
+.item-block {
+			width:100%;
+			padding-top:20px;
+}
+
+/*========= sabine ==========
+=================================*/
+.sabine-block {
+				width:98%;			
+}
+
+/*=========== footer ================*/
+.wrap-footer { width:98%; }
+/*=========== end footer ================*/
+
+/*========= contact ==========
+=================================*/
+
+.contact-block { width:98%; } 
+
+/*========= professional pages ==========
+=================================*/
+
+.wrap-professional { width:99%; }
+
+/*========= gift ==========
+=================================*/
+.left-arrow-gift { left:2%; }
+.right-arrow-gift { right:2%; }
+.gift-mid { width:90%; margin:0 5%;    }
+.gift-mid h2 { margin-top:5%;  }
+
+
+.money-saving h3 { margin-top:30px; line-height:37px; width:100%; }
+}
+
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+@media screen and (max-width: 1035px) {
+
+.slide-mid h2 { font-family: 'dosisregular'; font-size:30px; color:#FFFFFF; line-height:36px; text-align:center; margin-top:12%;  }
+.view-details { padding:10px 0; font-size:18px; margin-top:40px; }
+
+.review-more { padding:10px 0; font-size:18px;   }
+
+nav ul li { font-size:16px; padding-left:9px; padding-right:9px; }
+
+/*========= Gallery ==========
+=================================*/
+
+.gallery-block { width:99%; }
+
+/*========= testimonial ==========
+=================================*/
+
+.wrap-testimonial { width:99%; }
+
+/*========= gift ==========
+=================================*/
+.left-arrow-gift { left:2%; }
+.right-arrow-gift { right:2%; }
+.gift-mid { width:90%; margin:0 5%;    }
+.gift-mid h2 {  font-size:28px; line-height:50px;  margin-top:5%;  }
+.gift-mid h2 span { border:2px solid #FFF; border-radius:50%; padding:0 10px; font-size:28px;   }
+
+}
+
+/************************************************************************************
+smaller than 960px
+*************************************************************************************/
+@media screen and (max-width: 960px) {
+
+/*===============================  = start top menu ==============================  */	
+#navigation {
+		width:100%;
+		float:left;
+		position:relative;
+		padding-top:26px;
+}
+nav {
+	width:100%;
+	float:left;
+	position:relative;
+}
+nav.menushow{display:block;}
+.btn{
+	  float:left;
+	  position:relative;
+	  font-weight:bold;
+	  font-size:20px;
+	  line-height:40px;
+	  display:block;		  
+	  color: #FFFFFF;
+	  -webkit-border-radius:5px; 
+	   -moz-border-radius:5px; 
+	   border-radius:5px; 
+	   behavior: url('PIE.htc');
+	  cursor:pointer;	
+	  text-align:center;
+	  width:100%;
+	  background:#999999;  
+}
+nav{ display:none; }
+nav ul li { width:100%; color:#FFF; padding:0; font-size:16px; }
+nav ul li a { width:100%; background-color:#999999; color:#FFF; padding:5px 0; -webkit-border-radius:5px;  -moz-border-radius:5px;  border-radius:5px;  behavior: url('PIE.htc'); margin-top:5px; }
+nav ul li a:hover { color:#CCC; }
+nav ul li a.fixed { color:#CCC; background-color:#999999; }
+
+.lihoverclass { display: block; background:#999999; color:#CCC; }
+
+/*1st sub level menu*/
+nav ul li ul {
+width:100% !important;
+position:relative !important;
+margin-top:0px !important;
+top:-2px !important;
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+}
+
+nav ul li ul li { width:94% !important; padding:0 3%; float:left; color:#FFFFFF;  position:relative; border-radius:0px; }
+
+	 
+/* Sub level menu links style */
+nav ul li ul li a {
+width:98% !important;
+padding:1% !important;
+margin:0;
+position:relative; 
+}
+
+nav ul li ul li a:hover { color:#231815; background-color:#FFF; border-radius:0px; }
+
+/*==============================  = end top menu ==============================  */
+
+
+/*========= own salon ==========
+=================================*/
+.left-arrow-sub { left:2%; }
+.right-arrow-sub { right:2%;}
+.ownsalon-mid { width:66%; position:absolute; margin:0 17%; z-index:1;   }
+.ownsalon-mid h2 { font-size:24px;line-height:30px;  margin-top:5%;  }
+#green-bar h2 { font-family: 'dosisregular'; font-size:30px; color:#FFFFFF; line-height:35px; text-align:center;   }
+
+/*========= gift ==========
+=================================*/  
+.gift-mid h2 {  font-size:24px;line-height:40px;  margin-top:5%;  }
+
+
+.our-service-mid ul.coupon li span { background:none; padding-bottom:0; float:right; margin-right:0%;  }
+
+
+}
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+@media screen and (max-width: 768px) {
+
+p { font-size:16px; line-height:18px;  }
+h2 {  font-size:22px; line-height:26px;  }
+.button { padding:15px 1%; text-align:center; font-size:18px; }
+input { padding:15px 3%;}
+.slide-mid h2 { font-family: 'dosisregular'; font-size:24px; color:#FFFFFF; line-height:30px; text-align:center; margin-top:5%;  }
+.view-details { padding:5px 0; font-size:16px; margin-top:20px; width:200px; border:1px solid #FFF;  }
+
+#content-block { padding:20px 0; }
+.wrap-content h2 {  font-size:22px; line-height:22px;  }
+
+.wrap-subcontent h3 { font-size:18px; line-height:24px; }
+
+#review-block {	padding:20px 0; }
+.wrap-review { width:98%; }
+.wrap-review p { font-size:22px; line-height:26px; }
+.review-more { padding:10px 0; font-size:16px; margin-top:20px; width:250px; border:1px solid #FFF; }
+
+/*=========== footer ================*/
+#footer-block {	padding:45px 0; }
+.footer-left {
+				width:100%;
+}
+.map {
+	text-align:center;
+}
+.download-box {
+				width:95.5%;
+				float:left;
+				margin-top:20px;
+				padding:2%;
+}
+.download-now { width:250px; margin:auto; padding:10px 0; text-align:center; font-size:16px;}
+.download-now a { color:#4d4d4d; }
+/*=========== end footer ================*/
+
+/*========= own salon ==========
+=================================*/
+.ownblock h2 { margin-top:10px; }
+.buildind-aminets-left {
+					width:100%;
+					padding-right:0%;
+					margin-top:25px;
+}
+.buildind-aminets-right {
+					width:100%;
+					margin-top:25px;
+}
+ul.aminets { margin-top:20px; }
+ul.aminets li{ font-size:16px; font-weight:normal; color:#070707; line-height:18px; margin-top:10px; }
+#green-bar { padding:25px 0;}
+#green-bar h2 {  font-size:22px; line-height:26px;  }
+.freerent-left {
+					width:100%;
+					padding-right:0%;
+}
+.freerent-left h3 { font-size:22px; line-height:26px; }
+.freerent-left p { font-size:18px; line-height:22px;   }
+.freerent-right {
+					width:100%;
+					margin-top:20px;
+					text-align:center;
+}
+
+ul.freerent { margin-top:20px; }
+ul.freerent li{ font-size:18px; line-height:22px; min-height:32px; background-position:0 .0em; margin-top:10px; padding-left:40px; }
+.ownsalon-part {
+				width:100%;
+				float:left;
+				position:relative;
+				margin-top:20px;
+}
+.ownsalon-part p:first-child { margin-top:30px}
+.ownsalon-part p { margin-top:10px; }
+.ownsalon-part h2 { font-size:22px; line-height:26px; margin-top:00px; }
+.ownsalon-part2 { float:right; }
+.own-btn { width:230px; margin:auto; padding:10px 0; font-size:16px;  margin-top:20px; }
+.ownright { padding-right:0%; }
+.ownleft { padding-left:0%; }
+
+
+/*========= Gallery ==========
+=================================*/
+
+.gallery-thumb-block { margin-top:25px; }
+
+
+/*========= contact ==========
+=================================*/
+
+.contact-left { width:100%; }
+.contact-right { width:100%; margin-top:20px; }
+.contact-right h2 { font-size:22px; line-height:26px; }
+.contact-right input { margin-top:10px; }
+.contact-right textarea { margin-top:10px; }
+.contact-right input[type=submit] { margin-top:20px; }
+
+/*========= testimonial ==========
+=================================*/
+
+.testimonial-slide-middle p { font-size:18px; line-height:24px; }
+.reviewer2 { font-family: 'dosissemibold'; font-size:17px; color:#292929; line-height:24px; text-transform:uppercase; }
+.testimonial-field {
+			width:100%;
+			padding:0%;
+}
+.testimonial-more {
+			width:100%;
+			margin-top:20px;
+			padding-right: 0%;
+}
+.testimonial-more2 {
+			width:100%;
+			margin-top:20px;
+}
+
+
+/*========= professional pages ==========
+=================================*/
+.directory-professional {
+				width:100%;
+				padding: 0 0%;
+}
+.professional-field {
+				margin-top:20px;
+}
+.directory-professional h2 { font-size:22px; line-height:26px; padding: 15px 2%; }
+.directory-professional p { font-size:18px; line-height:22px; margin-top:15px; }
+
+.dir-pro-chart {
+				width:100%;
+				float:left;
+				position:relative;
+				padding:20px 0%;
+				background:#f7f7f7;
+				margin-top:25px;
+}
+.salon-name { font-size:16px; line-height:18px;  }
+.salon-text { font-size:16px; line-height:18px;  }
+.pro-slide-middle li { font-size:16px; line-height:18px; padding-left:5px; padding-right:5px; }
+.pro-slide-middle li a { color:#292929; padding-bottom:30px;}
+
+
+/*========= gift ==========
+=================================*/ 
+.gift-mid h2 {  font-size:18px;line-height:30px;  margin-top:5%;  }
+.giftcert-field h2 {text-align:left; text-transform:none; font-size:22px; }
+.giftcert-field ul.aminets { margin-top:25px; margin-left:7%; width:93%; }
+.giftcert-field ul ul { margin-top:25px;  }
+.purchase-btn { width:460px; margin:auto; padding:15px 0; margin-top:30px; }
+.purchase-btn a { color:#414141; }
+.gift-text { font-family: 'dosisregular'; font-size:22px; color:#53868b; line-height:28px; text-align:center; }
+
+/*========= coupon ==========
+=================================*/
+.money-saving {
+				width:100%;
+				margin:0%;				
+}
+ul.coupon { margin-top:20px; }
+ul.coupon li{ font-size:18px; line-height:22px; min-height:32px; background-position:0 .0em; margin-top:10px; padding-left:40px; }
+
+
+
+/*========= sabine ==========
+=================================*/
+.our-service-mid {
+				width:100%;
+				float:left;
+				position:relative; 
+				margin-left:0%;
+}
+
+.our-service-mid ul.coupon li span { background:none; padding-bottom:0; float:right;  }
+
+.sabine-pic {
+				width:100%;
+				margin-right:0%;
+				text-align:center;		
+}
+.sabine-info {
+				width:100%;
+				margin-right:0%;	
+				margin-top:15px;	
+}
+.sabine-desc {
+				width:100%;
+				margin-top:20px;
+}
+
+.sabine-text { font-size:16px;   }
+.sabine-text2 { font-size:16px; }
+.our-servic h3 { font-size:18px; }
+
+/*========= Thank You ==========
+=================================*/
+
+.thanks { font-family: 'dosisregular'; font-size:60px; color:#292929; line-height:60px;  text-align:center; margin-top:15px;   }
+
+/*========= 404 ==========
+=================================*/
+
+.notfound { font-size:30px; color:#aeabab; line-height:30px;     }
+.notfound2 {font-size:18px; color:#363636; line-height:24px;     }
+.back { width:260px; margin:auto; margin-top:40px; border:1px solid #8a8888; padding:15px 0; text-align:center; font-size:16px;  }
+.back a { color:#414141; }
+}
+
+
+
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 650px) {
+
+.logo {
+		width:100%;
+		float:left;
+		position:relative;
+		text-align:center;
+}
+.tel {
+		width:100%;
+		float:left;
+		position:relative;
+		font-family: 'latobold';
+		font-size:20px;
+		color:#FFFFFF;
+		text-align:center;
+		margin-top:14px;
+}
+
+
+.item-block {
+			padding-top:0;
+}
+.item-part {
+			width:100%;
+			margin-left:0;
+}
+
+
+.address  {
+				font-size:20px; 
+				line-height:24px;
+				width:100%;
+				margin-top:20px;
+}
+.call  {
+				font-size:20px; 
+				line-height:24px;
+				width:100%;
+				margin-top:20px;
+				padding-right:0%;
+}
+
+/*=========== footer ================*/
+.download-box h2 { font-size:22px; line-height:26px; }
+.book { width:100%; text-align:center; }
+.download-mid { width:100%; }
+input.email { font-family:'latoregular', Arial, Helvetica, sans-serif; font-size:16px; font-weight:normal; color:#414141; padding:10px 3%; width:94%; border:none; background:#edeae5;}
+/*=========== end footer ================*/
+
+
+/*========= professional pages ==========
+=================================*/
+.dir-pro-chart th { 
+		padding:10px; 
+		font-size:16px;
+		line-height:18px;
+}
+
+.pro-slide-middle li { font-size:14px; line-height:18px; padding-left:5px; padding-right:5px; }
+.pro-slide-middle li a { color:#292929; padding-bottom:30px;}
+
+
+}
+
+
+	
+
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+@media screen and (max-width: 480px) {	
+p { font-size:14px; line-height:18px;  }
+
+.slide-mid h2 { font-family: 'dosisregular'; font-size:18px; color:#FFFFFF; line-height:20px; text-align:center; margin-top:0%;  }
+.view-details { padding:5px 0; font-size:14px; margin-top:14px; width:200px; }
+
+.review-more { padding:10px 0; font-size:14px; margin-top:14px; width:250px; border:1px solid #FFF; }
+
+/*========= own salon ==========
+=================================*/
+.ownsalon-mid h2 { font-size:16px;line-height:22px;  margin-top:3%;  }
+
+
+/*========= professional pages ==========
+=================================*/
+.salon-name { font-size:14px; line-height:18px;  }
+.salon-text { font-size:14px; line-height:18px;  }
+.professional-banner { width:100%; float:left; margin-top:10px; padding:0%; }
+.professional-banner:first-child {text-align:center; }
+.professional-banner:nth-child(2) {text-align:center; }
+
+/*========= gift ==========
+=================================*/
+.gift-mid h2 {  font-size:13px;line-height:20px;  margin-top:3%;  }
+.purchase-btn { width:100%; margin:auto; padding:10px 0; margin-top:30px; font-size:14px; }
+.purchase-btn a { color:#414141; }
+
+
+.gift-mid h2 span { border:2px solid #FFF; border-radius:50%; padding:0 5px; font-size:13px;    }
+
+/*========= coupon ==========
+=================================*/
+ul.coupon { margin-top:20px; }
+ul.coupon li{ font-size:14px;  }
+
+/*========= Thank You ==========
+=================================*/
+
+.thanks { font-family: 'dosisregular'; font-size:40px; color:#292929; line-height:40px;  text-align:center; margin-top:15px;   }
+}
+
+
+/************************************************************************************
+smaller than 320
+*************************************************************************************/
+@media screen and (max-width: 340px) {
+
+
+
+
+
+
+
+}
+
